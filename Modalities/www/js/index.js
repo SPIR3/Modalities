@@ -8,6 +8,7 @@ $(document).on("pagecreate","#pageone",function(){
         
         if(value==true){
             navigator.notification.beep(1);
+		// can also use an array of numbers to get a vibration pattern, eg 2000,1000,5000,1000.
 		navigator.vibrate(1000);
         }else{
             navigator.notification.beep(2);
