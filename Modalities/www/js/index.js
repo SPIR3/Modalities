@@ -4,7 +4,7 @@ $(document).on("pagecreate","#pageone",function(){
 	$('#taptext').on("tap",function(){
 
         var value = random();
-        alert(value);
+        alert("Potato is " + (value));
         
         if(value==true){
 		//sounds the notification tone once.
