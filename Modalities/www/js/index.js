@@ -7,6 +7,7 @@ $(document).on("pagecreate","#pageone",function(){
         alert(value);
         
         if(value==true){
+		//sounds the notification tone once.
             navigator.notification.beep(1);
 		// can also use an array of numbers to get a vibration pattern, eg 2000,1000,5000,1000.
 		navigator.vibrate(1000);
