@@ -8,8 +8,10 @@ $(document).on("pagecreate","#pageone",function(){
         
         if(value==true){
             navigator.notification.beep(1);
+		navigator.vibrate(1000);
         }else{
             navigator.notification.beep(2);
+		navigator.vibrate(2000);
         }
  	}); 
  
